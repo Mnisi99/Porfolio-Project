@@ -149,8 +149,38 @@ body {
 
 @media (max-width: 430px) {
     .nav-bar {
+        display: block;
+    }
+
+    .nav-bar .logo {
         display: none;
     }
+
+    .navigation ul {
+        list-style: none;
+        font-family: sans-serif;
+    }
+
+    .navigation ul a {
+        text-decoration: none;
+        padding: 1em;
+        color: #fff;
+    }
+
+    .navigation ul li:nth-child(1) {
+        margin-left: 1.9em;
+    }
+
+    .navigation ul {
+        margin-left: -.8em;
+    }
+
+    .navigation ul li {
+       padding: .8em;
+       border: .1em solid red;
+       width: 10em;
+    }
+
 
     .description  {
         padding: 1em;
