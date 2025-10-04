@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+ background-image: url(images/contact.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+
+h3, p {
+    text-align: center;
+    margin-top: 3em;
+}
+
+span {
+    color: #00EEFF;
+}
+
+form {
+    margin: 2em auto;
+    text-align: center;
+}
+
+
+input {
+    width: 20%;
+    height: 2em;
+    margin-top: 2em;
+    margin-left: 1em;
+    border: .12em solid #686868;
+    border-radius: 1em;
+    text-align: center;
+    box-shadow: .5em .5em 1em #adadad;
+}
+
+#email-addr {
+   width: 30%; 
+}
+
+input, textarea::placeholder {
+    text-align: center;
+}
+
+textarea {
+    width: 45%;
+    height: 15em;
+    border: .12em solid #686868;
+    margin-top: 3em;
+    padding: 0.3em;
+    border-radius: .5em;
+    box-shadow: 1em 1em 2em #adadad;
+}
+
+button {
+    width: 10em;
+    height: 2em;
+    border-radius: 3em;
+    margin-top: 2em;
+    background: #bbb7b7;
+    box-shadow: 1em 1em 2em #adadad;
+}
+
+button:hover {
+    background-color: #04ad21;
+    color: #fff;
+}

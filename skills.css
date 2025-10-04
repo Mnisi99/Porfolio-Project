@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+body {
+    background-image: linear-gradient(45deg,
+    rgba(18, 21, 24, 0.3) 0%, 
+    rgba(10,10, 10, 0.5)50%,
+    rgba(15, 15, 15, 0.9) 100%), 
+    url(images/skills_img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.skills_container {
+    width: 80%;
+    /* border: 0.1em solid #000; */
+    margin: 4em auto;
+    font-size: 1.3em;
+}
+
+.skills_container h3 {
+    text-align: center;
+    font-weight: 600;
+  
+}
+
+span {
+     color: #00EEFF;
+}
+
+table {
+    width: 100%;
+    margin-top: 1.5em;
+}
+
+td {
+    border: 0.1em solid #a8a8a8;
+    border-radius: 4em;
+    padding: .5em;
+    height: 2em;
+    animation-name: live-skills;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+.html, .python, .java, .boot, .css, .javascript, .jq, .figma {
+    list-style: none;
+    /* border: .1em solid rgb(192, 192, 192); */
+    border-radius: 4em;
+}
+
+.html, .python, .java, .jq, .boot, .javascript, .css, .figma, li {
+    text-align: end;
+    border-radius: 4em;
+    background-color: #00EEFF;
+}
+
+.html {
+    width: 90%;
+}
+
+.css {
+    width: 85%;
+}
+.java {
+    width: 80%;
+}
+.javascript {
+    width: 60%;
+}
+.boot {
+    width: 40%;
+}
+.jq {
+    width: 10%;
+}
+.python {
+    width: 80%;
+}
+.figma {
+    width: 95%;
+}
+
+@keyframes live-skills {
+    
+    from {
+        height: 2em;
+    }
+   to {
+    height: 4em;
+   }
+}
