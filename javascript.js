@@ -2,32 +2,32 @@
 
 const doc = document.getElementById("cvDownload");
 
-// doc.addEventListener('click', () => {
+doc.addEventListener('click', () => {
 
-//     var answer = "";
+    var answer = "";
 
-//     while(answer != "yes" && answer != "no") {
+    while(answer != "yes" && answer != "no") {
 
-//          answer = prompt("Are you sure you want to download the Cv?");
+         answer = prompt("Are you sure you want to download the Cv?");
 
-//           if (answer === null) {
-//             event.preventDefault();
-//             break;
+          if (answer === null) {
+            event.preventDefault();
+            break;
              
-//           }else if (answer.toLowerCase() === "yes") {
-//             alert("About to download Mnisi's Cv!!");
-//             break;
+          }else if (answer.toLowerCase() === "yes") {
+            alert("About to download Mnisi's Cv!!");
+            break;
 
-//           }else if (answer.toLowerCase() === "no") {
-//             event.preventDefault();
-//             break;
+          }else if (answer.toLowerCase() === "no") {
+            event.preventDefault();
+            break;
 
-//           }else {
-//             alert("You entered an invalid input, please try again!!");
-//             event.preventDefault();
-//             continue;
-//           }
+          }else {
+            alert("You entered an invalid input, please try again!!");
+            event.preventDefault();
+            continue;
+          }
 
-//     }
-// });
+    }
+});
 
