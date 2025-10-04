@@ -177,7 +177,7 @@ body {
 
     .navigation ul li {
        padding: .8em;
-       border: .1em solid red;
+       border: .1em solid rgb(248, 247, 247);
        width: 10em;
     }
 
