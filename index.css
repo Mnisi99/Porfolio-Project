@@ -158,7 +158,18 @@ body {
         display: none;
     }
 
+    .navigation {
+        cursor: pointer;
+        width: 3em;
+        height: 3em;
+        background-image: url(images/menu-bar.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
     .navigation ul {
+        display: none;
         list-style: none;
         font-family: sans-serif;
     }
@@ -182,6 +193,10 @@ body {
        border: .1em solid rgb(248, 247, 247);
        background-color: #00EEFF;
        width: 10em;
+    }
+
+    .navigation:hover ul {
+        display: block;
     }
 
     .description  {
