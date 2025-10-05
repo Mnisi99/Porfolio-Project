@@ -148,9 +148,10 @@ body {
 
 
 @media (max-width: 430px) {
-    .menu-icon {
+    .menu-icon img {
         width: 3em;
         height: 3em;
+        color: #fff;
     }
     .nav-bar {
         display: block;
