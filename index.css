@@ -148,6 +148,10 @@ body {
 
 
 @media (max-width: 430px) {
+    .menu-icon {
+        width: 3em;
+        height: 3em;
+    }
     .nav-bar {
         display: block;
         margin-top: .2em;
