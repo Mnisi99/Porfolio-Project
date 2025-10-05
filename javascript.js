@@ -31,3 +31,9 @@ doc.addEventListener('click', () => {
     }
 });
 
+const menu = document.querySelector('.navigation');
+const navigation = document.querySelector('.navigation ul');
+
+menu.addEventListener('click', () => {
+  navigation.style.display = 'block';
+});
