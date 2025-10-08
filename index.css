@@ -175,6 +175,7 @@ body {
         display: none;
         list-style: none;
         font-family: sans-serif;
+        z-index: 1;
     }
 
     .navigation ul a {
