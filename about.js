@@ -4,21 +4,17 @@ const edu = document.getElementById('qualification');
 const shortCourse = document.getElementById('short');
 const qual = document.getElementById('education');
 const experience = document.getElementById('myExperience');
-const det = document.getElementById('myDetails');
-const ex = document.getElementById('experience');
-const detail = document.getElementById('details');
+const hist = document.getElementById('experience');
 
-shortC.style.display = 'none'; //onload hide the short course, details, and experience...
-detail.style.display = 'none';
-ex.style.display = 'none';
+shortC.style.display = 'none'; 
+hist.style.display = 'none';
 
 const element = document.querySelectorAll('.first-list a');
 
 const sections = {
     education: edu,
     short: shortC,
-    myExperience: ex,
-    myDetails: detail
+    myExperience: hist
 };
 
 
@@ -39,4 +35,6 @@ element.forEach(item => {
         }
     });
 });
+
+
 

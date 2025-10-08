@@ -35,7 +35,7 @@ body {
 
 
 
-@media (min-width: 920px) {
+@media (min-width: 1281px) {
 
     .nav-bar {
         display: flex;
@@ -147,7 +147,7 @@ body {
 } 
 
 
-@media (max-width: 430px) {
+@media (min-width: 430px) and (max-width: 1280px)  {
 
     body {
         overflow: scroll;
@@ -169,23 +169,28 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        z-index: 1;
     }
 
     .navigation ul {
         display: none;
         list-style: none;
         font-family: sans-serif;
-        z-index: 1;
     }
 
     .navigation ul a {
         text-decoration: none;
         padding: 1em;
         color: #fff;
+        margin-top: -1em;
     }
 
-    .navigation ul li:nth-child(1) {
-        margin-left: 1.85em;
+    .navigation ul li {
+        margin-left: 1.1em;
+    }
+
+    .navigation ul li:nth-child(2) {
+        margin-left: 1.1em;
     }
 
     .navigation ul {

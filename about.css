@@ -36,61 +36,81 @@ h2 span, h3{
     color: #00EEFF;
 }
 
-#about-content {
-    /* display: flex; */
-    margin-top: 40px;
-    box-sizing: border-box;
-    overflow: hidden;
+@media (min-width: 430px) and (max-width: 1280px)  {
+    .first-list {
+        display: flex;
+        justify-content: space-between;
+        justify-content: space-around;
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }
+
+    .first-list li {
+        padding: .8em;
+        border: .1em solid #fff;
+    }
+
+    #qualification, #shortCourse, #experience {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    h3 {
+        margin-bottom: 1em;
+    }
 }
 
-.info-aboout-me {
-    margin-left: 80px;
-    margin-bottom: 50px;
-}
+@media (min-width: 1281px) {
+   
+    #about-content {
+        margin-top: 40px;
+        box-sizing: border-box;
+    }
 
-.info-aboout-me .first-list {
-    display: flex;
-    font-family:sans-serif;
-    font-weight: 600;
-    list-style: none;
-    margin-left: -40px;
-}
+    .info-aboout-me {
+        margin-left: 80px;
+        margin-bottom: 50px;
+    }
 
-.first-list li a:hover {
-    color: #00EEFF;
-}
+    .info-aboout-me .first-list {
+        display: flex;
+        font-family:sans-serif;
+        font-weight: 600;
+        list-style: none;
+        margin-left: -40px;
+    }
 
-#about-content p {
-    width: 60%;
-}
+    .first-list li a:hover {
+        color: #00EEFF;
+    }
 
-#about-content h3 {
-    margin-bottom: 1em;
-}
+    #about-content p {
+        width: 60%;
+    }
 
-.first-list li a:active {
-    box-shadow: 10px 10px 12px #fff;
-}
+    #about-content h3 {
+        margin-bottom: 1em;
+    }
 
-.first-list li a {
-    text-decoration: none;
-    color: #ffffff;
-}
+    .first-list li a:active {
+        box-shadow: 10px 10px 12px #fff;
+    }
 
-.info-aboout-me ul li {
-    margin-left: 120px;
-}
+    .first-list li a {
+        text-decoration: none;
+        color: #ffffff;
+    }
 
-.first-list li h4 {
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
+    .info-aboout-me ul li {
+        margin-left: 120px;
+    }
 
-#qualification, #shortCourse, #experience, #details {
-    margin-left: 150px;
-}
+    #qualification, #shortCourse, #experience {
+        margin-left: 9.375em;
+    }
 
-#qualification ul:nth-child(1) {
-    margin-bottom: 40px;
-}
+    #qualification ul:nth-child(1) {
+        margin-bottom: 40px;
+    }
 
+}
