@@ -14,6 +14,78 @@ body {
     background-attachment: fixed;
 }
 
+@media (min-width: 430px) and (max-width: 1280px)  {
+
+    body {
+        overflow: scroll;
+    }
+    .nav-bar {
+        display: block;
+        margin-top: .2em;
+    }
+
+    .nav-bar .logo {
+        display: none;
+    }
+
+    .navigation {
+        cursor: pointer;
+        width: 3em;
+        height: 3em;
+        background-image: url(images/menu-bar.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 1;
+    }
+
+    .navigation ul {
+        display: none;
+        list-style: none;
+        font-family: sans-serif;
+    }
+
+    .navigation ul a {
+        text-decoration: none;
+        padding: 1em;
+        color: #fff;
+        margin-top: -1em;
+    }
+
+    .navigation ul li {
+        margin-left: 1.1em;
+    }
+
+    .navigation ul li:nth-child(2) {
+        margin-left: 1.1em;
+    }
+
+    .navigation ul {
+        margin-left: -.8em;
+    }
+
+    .navigation ul li {
+       padding: .8em;
+       border: .1em solid rgb(248, 247, 247);
+       background-color: #00EEFF;
+       width: 10em;
+    }
+
+    .self-intro  {
+        margin-top: -2em;
+    }
+
+    .description  {
+        padding: 1em;
+        margin-top: 2em;
+    }
+
+    .contact-details, #cvDownload {
+        font-size: .7em;
+    }
+    
+}
+
 @media (min-width: 1281px) {
 
     .nav-bar {
@@ -124,79 +196,6 @@ body {
     }
 
 } 
-
-
-@media (min-width: 430px) and (max-width: 1280px)  {
-
-    body {
-        overflow: scroll;
-    }
-    .nav-bar {
-        display: block;
-        margin-top: .2em;
-    }
-
-    .nav-bar .logo {
-        display: none;
-    }
-
-    .navigation {
-        cursor: pointer;
-        width: 3em;
-        height: 3em;
-        background-image: url(images/menu-bar.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        z-index: 1;
-    }
-
-    .navigation ul {
-        display: none;
-        list-style: none;
-        font-family: sans-serif;
-    }
-
-    .navigation ul a {
-        text-decoration: none;
-        padding: 1em;
-        color: #fff;
-        margin-top: -1em;
-    }
-
-    .navigation ul li {
-        margin-left: 1.1em;
-    }
-
-    .navigation ul li:nth-child(2) {
-        margin-left: 1.1em;
-    }
-
-    .navigation ul {
-        margin-left: -.8em;
-    }
-
-    .navigation ul li {
-       padding: .8em;
-       border: .1em solid rgb(248, 247, 247);
-       background-color: #00EEFF;
-       width: 10em;
-    }
-
-    .self-intro  {
-        margin-top: -2em;
-    }
-
-    .description  {
-        padding: 1em;
-        margin-top: 2em;
-    }
-
-    .contact-details, #cvDownload {
-        font-size: .7em;
-    }
-    
-}
 
 .description h3, h2 {
     margin-top: 20px;
