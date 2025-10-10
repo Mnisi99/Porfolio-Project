@@ -20,7 +20,7 @@ body {
         overflow: auto;
     }
     .nav-bar {
-        display: flex;
+        display: block;
         margin-top: .2em;
     }
 
