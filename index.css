@@ -17,7 +17,7 @@ body {
 @media (min-width: 430px) and (max-width: 1280px)  {
 
     body {
-        overflow: scroll;
+        overflow: auto;
     }
     .nav-bar {
         display: block;
