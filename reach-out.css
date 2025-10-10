@@ -61,11 +61,26 @@ button {
     height: 2em;
     border-radius: 3em;
     margin-top: 2em;
-    background: #bbb7b7;
+    color: #fff;
+    background-color: #1dcc3a;
     box-shadow: 1em 1em 2em #adadad;
 }
 
 button:hover {
-    background-color: #04ad21;
-    color: #fff;
+    background-color: #18ec3b;
+    
+}
+
+@media (min-width: 430px) and (max-width: 768px) {
+    input {
+        width: 40%;
+    }
+
+    #email-addr {
+        width: 60%;
+    }
+    textarea {
+        width: 80%;
+        height: 12em;
+    }
 }
