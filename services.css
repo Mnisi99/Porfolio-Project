@@ -1,7 +1,17 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans Unicode';
+    color: #fff;
+}
+
+body {
+    background-image: linear-gradient(45deg, 
+    rgba(18, 18, 19, 0.5) 0%, 
+    rgba(0, 0, 0, 0.9) 100%),
+    url(images/services.jpg);
+    background-position: center center;
+    background-size: cover;
 }
 
 h1 {
@@ -20,7 +30,7 @@ h1 {
 .serv-container div {
     width: 20%;
     margin-bottom: 3em;
-    box-shadow: 1em 1em 1em #bbb8b8;
+    box-shadow: 1em 1em 1em #ffffff;
 }
 
 .serv-container div h2 {
